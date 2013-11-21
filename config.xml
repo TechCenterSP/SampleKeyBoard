@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:rim="http://www.blackberry.com/ns/widgets" version="1.0.0.1" id="inputs-and-keyboard-sample">
+ 
+  <author href="http://www.techcentersp.com" rim:copyright="Copyright 2012-2013 personal Henrique Aveiro">Henrique Aveiro - TechCenter SP</author>
+ 
+  <name>KeyBoard Inputs Sample</name>
+ 
+  <description>
+Usando propriedades de inputs para manipular o teclado
+  </description>
+ 
+  <rim:permissions>
+    <rim:permit>access_shared</rim:permit>
+    <rim:permit>access_location_services</rim:permit>
+    <rim:permit>use_camera</rim:permit>
+ </rim:permissions>
+ 
+  <icon src="icones/icon18.png" />
+ 
+  <content src="index.html" />
+ 
+  <feature id="blackberry.ui.dialog" />
+  <feature id="blackberry.ui.toast" />
+  <feature id="blackberry.ui.menu" />
+
+   
+  <feature id="blackberry.app">
+  </feature>
+</widget>

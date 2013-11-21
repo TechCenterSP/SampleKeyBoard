@@ -1,0 +1,9 @@
+.inputespecial{
+border-style: none;position: absolute;display:block;outline-width: 0;border-width: 0px;border-color: transparent;background-color:#F9F9F9;font-size: 30pt;height:79px;left: 10px;right: 10px;margin-bottom: 8px;padding: 10px;padding-left: 20px;padding-right: 20px;
+}
+
+.innerid{
+ color: #FF6600;
+ position: relative;
+margin-left: 11%;
+}

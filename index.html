@@ -1,0 +1,42 @@
+    <!doctype html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>CONVERSOR</title>
+        <script  src="local:///chrome/webworks.js"></script>
+        <script src="bbui.js"></script>
+        <script src="functions.js"></script>
+         <link rel="stylesheet" href="bbui.css"/>
+         <link rel="stylesheet" href="estilo.css"/>
+        <script>
+            var darkColoring = null;
+        window.addEventListener('load',function(){
+                    document.addEventListener("webworksready",function(){
+                        var config = new Object();
+                        if (darkColoring) {
+               config = {controlsDark: true,
+               listsDark: true};
+           }
+           else {
+            config = {controlsDark: true,
+            listsDark: true,
+            coloredTitleBar: false};
+            }
+                
+           config.onscreenready = function (elemento,id,parametro){
+                          
+            };               
+            config.ondomready=function(elemento,id, parametro){ 
+           
+            };        
+                                
+            bb.init(config);              
+            bb.pushScreen("tela-inicial.html","pagina");
+                
+            });
+        });        
+        </script>
+        </head>
+    <body>
+    </body>
+    </html>
