@@ -1,23 +1,21 @@
 <div data-bb-type="screen" data-bb-effect="fade">
     <div data-bb-type="round-panel">
         <div data-bb-type="panel-header">ID das TECLAS</div>
-            <select name="Tipo de Input" onchange="document.getElementById('campo').innerHTML=this.options[this.selectedIndex].value;">
-                <option id="selected" selected value="Tipo de Input">Tipo de Input</option>
-                    <option value="<input type='email'  class='inputespecial' onkeypress='teclado(this,id,document)' />">Email</option>
-                    <option value="<input type='number' class='inputespecial' onkeypress=teclado(this,id,document) />">Número</option>
-                    <option value="<input type='password'  class='inputespecial' onkeypress=teclado(this,id,document) />" >Senha</option>
-                    <option value="<input type='search' class='inputespecial' onkeypress=teclado(this,id,document) />" >Pesquisa</option>
-                    <option value="<input type='tel' class='inputespecial' onkeypress=teclado(this,id,document) />" >Telefone</option>
-                    <option value="<input type='text' class='inputespecial' onkeypress=teclado(this,id,document) />" >Texto</option>
-                    <option value="<input type='url' class='inputespecial' onkeypress=teclado(this,id,document) />" >Url</option>  
-            </select>
-            
-            <div id="campo"></div>
+        <select name="Tipo de Input" onchange="document.getElementById('campo').innerHTML=this.options[this.selectedIndex].value;">
+            <option id="selected" selected value="Tipo de Input">Tipo de Input</option>
+                <option value="<input type='email'  class='inputespecial' onkeypress='teclado(this,id,document)' />">Email</option>
+                <option value="<input type='number' class='inputespecial' onkeypress=teclado(this,id,document) />">Número</option>
+                <option value="<input type='password'  class='inputespecial' onkeypress=teclado(this,id,document) />" >Senha</option>
+                <option value="<input type='search' class='inputespecial' onkeypress=teclado(this,id,document) />" >Pesquisa</option>
+                <option value="<input type='tel' class='inputespecial' onkeypress=teclado(this,id,document) />" >Telefone</option>
+                <option value="<input type='text' class='inputespecial' onkeypress=teclado(this,id,document) />" >Texto</option>
+                <option value="<input type='url' class='inputespecial' onkeypress=teclado(this,id,document) />" >Url</option>  
+        </select>
+        <div id="campo"></div>
     </div>
-        <br/>
-        <br/>
-        <h1 class="innerid" id="codigo"></h1>
-        
+    <br/>
+    <br/>
+    <h1 class="innerid" id="codigo"></h1>
     <div data-bb-type="action-bar">
         <div data-bb-type="action" data-bb-style="tab" data-bb-img="icones/ic_to_top.png" data-bb-overflow="false" onclick="bb.pushScreen('mostrar.html','mostrar');">Mostrar teclado</div>
         <div data-bb-type="action" data-bb-style="tab" data-bb-img="icones/ic_done.png" data-bb-overflow="false" onclick="bb.pushScreen('submeter.html','submeter');">Submeter Informação</div>
